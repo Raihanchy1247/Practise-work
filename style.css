@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.click-button{
+   text-decoration: none;
+   color:white;
+   background-color: rgba(255, 30, 0, 0.753);
+   padding: 10px 20px;
+   border-radius: 10px;
+   font-weight: 700px;
+}
+#colort{
+color: rgba(255, 30, 0, 0.753);
+
+}
+
+.half-width {
+    width:40%;
+    
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img {
+    width: 70%;
+}
+.header-area{
+    background-image: url("header-bg.png");
+
+}
+.bicenter{
+    font-align:center;
+}
+.biography-area{
+    background: url("biography-bg.png");
+}
+{
+    box-sizing:border-box;
+}
+.colum{
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.lcenter{
+    text-align: center;
+}
+.click-button2{
+    text-decoration: none;
+    color:white;
+    background-color: rgba(255, 30, 0, 0.753);
+    padding: 10px 20px;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+ footer {
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    
+    color: rgb(0, 0, 0);
+}
